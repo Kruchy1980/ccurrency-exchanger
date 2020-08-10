@@ -1,0 +1,142 @@
+/* Main */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Main body */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    padding: 50px;
+    width: 95%;
+    max-width: 700px;
+    background-image: linear-gradient(22deg, #222, #333d46);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 2px rgb(1, 94, 1);
+    color: #ddd;
+    text-align: center;
+}
+
+
+/* Title */
+
+.title {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+
+/* App Body */
+
+.app-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* Sections */
+
+.section-right,
+.section-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Icon */
+
+.app-body .icon {
+    align-self: center;
+    font-size: 20px;
+}
+
+
+/* Inputs */
+
+.app-body input {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 60px;
+}
+
+.app-body input,
+.app-body select {
+    color: #fff;
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.app-body select {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.app-body input:focus,
+.app-body select:focus {
+    outline: none;
+    color: #0606c0;
+}
+
+.app-body option {
+    color: #333;
+}
+
+
+/* Exchange button */
+
+.swap {
+    align-self: flex-end;
+    margin: 5px;
+    padding: 5px 40px;
+    background-image: linear-gradient(45deg, #0a0ac499, #09dd0999);
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.swap:focus {
+    outline: none;
+    /* background-image: linear-gradient(45deg, #09dd0999, #0a0ac499); */
+    background-image: linear-gradient(45deg, #02028a99, #04880499);
+    color: #fff;
+}
+
+
+/* Info paragraph */
+
+.wrapper .rate-info {
+    visibility: hidden;
+    margin-top: 30px;
+    margin-bottom: 0;
+}

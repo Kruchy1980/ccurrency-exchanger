@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/bookmark-icon/currency.svg">
+    <title>Currency Exchanger</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Google fonts import - Dancing Script  and Montserat-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/ac750a2c2d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1 class="title">Exchange Rate App</h1>
+        <p class="subtitle">Check The Currency Online</p>
+
+        <div class="app-body">
+            <div class="section-left">
+                <input type="number" class="amount-one" value="1">
+                <select id="currency-one">
+                    <option value="PLN" selected>PLN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CHF">CHF</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CAD">CAD</option>
+                </select>
+            </div>
+            <button class="swap">
+                <i class="fas fa-retweet"></i>
+            </button>
+            <div class="section-right">
+                <input type="number" class="amount-two" disabled>
+                <select id="currency-two">
+                    <option value="PLN">PLN</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CHF">CHF</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CAD">CAD</option>
+                </select>
+            </div>
+        </div>
+        <!-- Communicate about rate info -->
+        <p class="rate-info">Przeliczenie</p>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
