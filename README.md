@@ -1,7 +1,7 @@
 # Exchange Rate App
 Simple project --> where we can calculate the currency.
 
-Prosty projekt przelicznika pieniędzywalut.
+Prosty projekt przelicznika pieniędzy/walut.
 
 ### Instruction
 
